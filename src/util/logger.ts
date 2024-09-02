@@ -30,7 +30,7 @@ const consoleLogFormat = format.printf((info) => {
     const { level, message, timestamp, meta = {} } = info
 
     const customLevel = colorizeLevel(level.toUpperCase())
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+     
     const customTimestamp = green(timestamp as string)
 
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment

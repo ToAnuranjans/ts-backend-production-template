@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+ 
 const { exec } = require('child_process')
 
 // Command Line Arguments
